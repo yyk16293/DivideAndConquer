@@ -102,26 +102,4 @@ public class MergeTwoSortedArrays {
 		divideAndMergeSortedArray(A, start, end);
 
 	}
-
-	public static void main(String args[]) {
-
-		int[] arrA = { 1, 3, 5, 7, 9, 11 };
-		int[] arrB = { 2, 4, 6, 8, 10, 13 };
-		int[] arrD = { 1, 3, 14, 2, 12, 100, 23, 85, 68 };
-
-		mergeSort(arrD, 0, arrD.length - 1);
-
-		// divideAndMergeSortedArray(arrD, 0, arrD.length - 1);
-		// int[] arrC = mergeTwoSortedArrays(arrA, arrB);
-
-		// for (int i = 0; i < arrC.length; i++)
-		// System.out.print(arrC[i] + " ");
-
-		System.out.println();
-
-		for (int i = 0; i < arrD.length; i++)
-			System.out.print(arrD[i] + " ");
-
-	}
-
 }
